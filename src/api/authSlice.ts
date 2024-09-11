@@ -1,7 +1,7 @@
 import { AuthData } from "@/interface/auth.interface";
 import ApiHelper from "./ApiHelper";
 
-const URL = "http://localhost:8080";
+const URL = "https://ndt-backend.onrender.com";
 
 export function Signup(formValue: AuthData) {
   return new Promise((resolve, reject) => {

@@ -1,7 +1,7 @@
 import { FormValue } from "@/interface/part.interface";
 import ApiHelper from "./ApiHelper";
 
-const URL = "http://localhost:8080";
+const URL = "https://ndt-backend.onrender.com";
 
 export function createPart(id:string,formValue: FormValue) {
   console.log("data : ", formValue);

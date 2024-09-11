@@ -2,7 +2,7 @@ import { FormValue } from "@/interface/part.interface";
 import ApiHelper from "./ApiHelper";
 import { AuthData } from "@/interface/auth.interface";
 
-const URL = "http://localhost:8080";
+const URL = "https://ndt-backend.onrender.com";
 
 export function createNewDepartment(id: string,formValue: AuthData) {
 

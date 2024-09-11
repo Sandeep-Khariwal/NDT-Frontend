@@ -157,8 +157,9 @@ export default function Home() {
         {activeTab === ActiveTab.ADMIN && (
           <Flex gap={20} w={"80%"} h={"100%"} mx={"auto"} mt={20}>
             {subDepartments.length > 0 &&
-              subDepartments.map((item) => (
+              subDepartments.map((item,i) => (
                 <DepartmentCards
+                key={i}
                   departmentName={item.name}
                   totalParts={item.departmentParts.length}
                   onClickSubDepartment={() => {
